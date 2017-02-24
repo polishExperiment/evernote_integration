@@ -1,0 +1,5 @@
+%h3
+  Notebooks
+- @notebooks.each do |notebook|
+  %p
+    = link_to notebook.name, notebook_notes_path(notebook)
