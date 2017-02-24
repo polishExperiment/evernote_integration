@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  kind: 1
+  username: MyString
+  uid: MyText
+  token: MyText
+  token_expires: 2017-02-24 12:00:37
+  verified: 2017-02-24 12:00:37
+  user: one
+
+two:
+  kind: 1
+  username: MyString
+  uid: MyText
+  token: MyText
+  token_expires: 2017-02-24 12:00:37
+  verified: 2017-02-24 12:00:37
+  user: two
