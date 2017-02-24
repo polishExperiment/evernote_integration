@@ -16,10 +16,15 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-evernote'
+gem 'evernote_oauth'
 
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'dotenv-rails'
+  gem 'pry-rails'
 end
 
 group :development do
