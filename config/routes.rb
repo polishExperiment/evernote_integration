@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
+
+  get '/auth/:provider/callback' => 'omni_auth#callback'
+  get '/auth/failure' => 'omni_auth#failure'
 end
